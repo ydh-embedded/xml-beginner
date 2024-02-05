@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Processing Instruction -->
+
+<adressbuch><!-- root-element -->
+
+    <besitzer>Max Wunderlich</besitzer>
+    <besitzer>Gido Extrem</besitzer>
+    <besitzer>Berta Saftig</besitzer>
+
+    <karte>
+
+        <vorname>Holz</vorname>
+        <nachname>Bernd</nachname>
+        <email>holz.bernd@email.com</email>
+
+    </karte>
+
+    <karte>
+
+        <vorname>Brett</vorname>
+        <nachname>Holger</nachname>
+        <email>brett.holger@email.com</email>
+        <url xml:lang="de">https://www.holz.de</url>
+        <foto src="bild.jpg" ></foto>
+        <space xml:space="default"></space>
+        <space xml:space="preserve"></space>
+        <kleinschreibung>besitzer</kleinschreibung>
+        <Großchreibung>Besitzer</Großchreibung>
+        
+    </karte>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</adressbuch>
