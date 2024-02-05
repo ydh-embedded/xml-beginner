@@ -1,0 +1,13 @@
+
+<!-- Root-Element            -->
+<!ELEMENT musiksammlung (album+)>
+
+<!-- Element der 2. Ebene    -->
+<!ELEMENT album ( label, (interpret|gruppe)+, titel, lied* )>
+
+<!-- Elemente der 3. Ebene   -->
+<!ELEMENT label     (#PCDATA)>
+<!ELEMENT interpret (#PCDATA)>
+<!ELEMENT gruppe    (#PCDATA)>
+<!ELEMENT titel     (#PCDATA)>
+<!ELEMENT lied      (#PCDATA)>

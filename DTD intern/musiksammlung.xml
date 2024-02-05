@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <!-- standalone ist optional, Standard-Wert ist "no" -->
+
 <!DOCTYPE musiksammlung [
-  <!ELEMENT musiksammlung (album+)>
+<!--  <!ENTITY ja "Jörg Aderhold"> -->
+
+
+<!-- Root-Element             -->
+<!ELEMENT musiksammlung (album+)>
+
+<!-- Element der 2. Ebene     -->
+<!ELEMENT album (label, (interpret|gruppe)+, titel, lied* )>
+
+<!-- Elemente der 3. Ebene    -->
+<!ELEMENT besitzer  (#PCDATA)>
+<!ELEMENT label     (#PCDATA)>
+<!ELEMENT interpret (#PCDATA)>
+<!ELEMENT gruppe    (#PCDATA)>
+<!ELEMENT titel     (#PCDATA)>
+<!ELEMENT lied      (#PCDATA)>
+
 ]>
+
 <musiksammlung>
 
-  <album typ="CD"   spielzeit="33:03">
+  <album>
     <label>Mute Records Limited</label>
     <interpret>Moby</interpret>
     <titel>Play</titel>
@@ -20,7 +38,7 @@
     <lied>Machete</lied>
   </album>
 
-  <album typ="Vinyl" spielzeit="35:06">
+  <album>
     <label>Sony Music</label>
     <gruppe>a-ha</gruppe>
     <titel>Minor earth and major sky</titel>
@@ -29,10 +47,10 @@
     <lied>...</lied>
   </album>
 
-  <album typ="MP3"  spielzeit="54:48">
+  <album>
+    <label>T-Summer Ltd.</label>
     <interpret>Mesh</interpret>
     <titel>Fragmente</titel>
-    <label>T-Summer Ltd.</label>
     <lied>Trust on you</lied>
     <lied>My defender</lied>
     <lied>...</lied>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>                         <!-- standalone ist optional, Standard-Wert ist "no" -->
+
+
+<!DOCTYPE musiksammlung SYSTEM "musiksammlung.dtd" [                            <!-- Wir binden die DTD Datei mit dem Befehl SYSTEM ein  -->
+ <!--  <!ENTITY &ja "Jörg Aderhold"> -->
+]>
+<musiksammlung>
+
+  <album>
+    <label>Mute Records Limited</label>
+    <interpret>Moby</interpret>
+    <titel>Play</titel>
+    <lied>Honey</lied>
+    <lied>Find my baby</lied>
+    <lied>Porcelain</lied>
+    <lied>Why does my heart feel so bad?</lied>
+    <lied>South side</lied>
+    <lied>Rushing</lied>
+    <lied>Bodyrock</lied>
+    <lied>Natural Blues</lied>
+    <lied>Machete</lied>
+  </album>
+
+  <album>
+    <label>Sony Music</label>
+    <gruppe>a-ha</gruppe>
+    <titel>Minor earth and major sky</titel>
+    <lied>Minor earth and major sky</lied>
+    <lied>Little black</lied>
+    <lied>...</lied>
+  </album>
+
+  <album>
+    <label>T-Summer Ltd.</label>
+    <interpret>Mesh</interpret>
+    <titel>Fragmente</titel>
+    <lied>Trust on you</lied>
+    <lied>My defender</lied>
+    <lied>...</lied>
+  </album>
+
+</musiksammlung>
