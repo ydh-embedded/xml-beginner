@@ -3,10 +3,12 @@
 
 <!DOCTYPE musiksammlung SYSTEM "musiksammlung.dtd" [                            <!-- Wir binden die DTD Datei mit dem Befehl SYSTEM "file.dtd" ein  -->
  <!--  <!ENTITY &ja "Jörg Aderhold"> -->
+  <!ENTITY d "Danny">
 ]>
 <musiksammlung>
 
   <album>
+    <besitzer>&d;</besitzer>
     <label>Mute Records Limited</label>
     <interpret>Moby</interpret>
     <titel>Play</titel>
@@ -22,6 +24,7 @@
   </album>
 
   <album>
+    <besitzer>&d;</besitzer>
     <label>Sony Music</label>
     <gruppe>a-ha</gruppe>
     <titel>Minor earth and major sky</titel>
@@ -31,6 +34,7 @@
   </album>
 
   <album>
+    <besitzer>&d;</besitzer>
     <label>T-Summer Ltd.</label>
     <interpret>Mesh</interpret>
     <titel>Fragmente</titel>

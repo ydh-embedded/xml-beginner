@@ -1,14 +1,16 @@
 
 <!-- Root-Element            -->
-<!ELEMENT musiksammlung (album+)>
+<!ELEMENT html (img*)>
 
 <!-- Element der 2. Ebene    -->
-<!ELEMENT album (besitzer, label, (interpret|gruppe)+, titel, lied* )>
+<!ELEMENT img (  )>
 
 <!-- Elemente der 3. Ebene   -->
-
-<!ELEMENT besitzer     (#PCDATA)>
-<!ELEMENT label     (#PCDATA)>
+<!ATTLIST img src PCDATA #REQUIRED
+                alt CDATA #IMPLIED>
+                align (left|center|right) "left"
+                typ CDATA #FIXED "image/jpg"
+                
 <!ELEMENT interpret (#PCDATA)>
 <!ELEMENT gruppe    (#PCDATA)>
 <!ELEMENT titel     (#PCDATA)>

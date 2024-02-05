@@ -6,10 +6,13 @@
 <!ELEMENT album (besitzer, label, (interpret|gruppe)+, titel, lied* )>
 
 <!-- Elemente der 3. Ebene   -->
-
-<!ELEMENT besitzer     (#PCDATA)>
+<!ELEMENT besitzer  (#PCDATA)>
 <!ELEMENT label     (#PCDATA)>
 <!ELEMENT interpret (#PCDATA)>
 <!ELEMENT gruppe    (#PCDATA)>
 <!ELEMENT titel     (#PCDATA)>
 <!ELEMENT lied      (#PCDATA)>
+
+<!-- Attribute -->
+<!ATTLIST album typ (CD|Vinyl|MP3|MC) "MP3"
+                spielzeit CDATA #IMPLIED>

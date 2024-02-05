@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>                         <!-- standalone ist optional, Standard-Wert ist "no" -->
+
+<!DOCTYPE html SYSTEM "html.dtd" [                            <!-- Wir binden die DTD Datei mit dem Befehl SYSTEM "file.dtd" ein  -->
+ <!--  <!ENTITY &ja "Jörg Aderhold"> -->
+
+]>
+
+<html>
+  <img src="bild.jpg" alt="Das Bild" align="center"></img>
+</html>
