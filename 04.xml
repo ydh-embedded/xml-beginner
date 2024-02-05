@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Processing Instruction -->
+<!-- prolog würde die doctyp inforamationen enthalten -->
+
+<Seminar> <!-- wir erstelle das root-Element -->
+
+    <Ziel>
+        Einführung in XML
+    </Ziel>
+
+    <Datum>
+        02.04. - 06.04.
+    </Datum>
+
+    <ort>
+        carl-marx-stadt
+    </ort>
+
+    <adresse>
+        marys-eck
+    </adresse>
+
+    <Zeitplan>
+        09:00 Uhr
+    </Zeitplan>
+
+    <Themen>
+        DTD entwickeln Darstellung von XML mit XSL
+    </Themen>
+
+    <personal>
+
+        <seminarleiter>
+
+        </seminarleiter>
+
+        <Teilnehmer>
+            
+        </Teilnehmer>
+
+    </personal>
+
+</Seminar>

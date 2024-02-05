@@ -1,2 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><!-- Processing Instruction -->
+<!-- prolog würde die doctyp inforamationen enthalten -->
 
+<musiksammlung><!-- wir erstelle das root-Element -->
+
+<album typ="Vinyl" Zeit="55:55" >
+
+    <label>Mute Records Limited</label>
+    <interpret>01-Moby</interpret>
+    <titel>01-Album-Titel</titel>
+    <lied>01-Song</lied>
+    <lied>02-Song</lied>
+    <lied>03-Song</lied>
+    <lied>04-Song</lied>
+    <lied>05-Song</lied>
+    <lied>06-Song</lied>
+    <lied>07-Song</lied>
+    <lied>08-Song</lied>
+    <lied>09-Song</lied>
+    <lied>10-Song</lied>
+
+</album>
+<album typ="Vinyl" Zeit="55:55" >
+
+    <label>Mute Records Limited</label>
+    <interpret>02-Gaby</interpret>
+    <titel>01-Album-Titel</titel>
+    <lied>01-Song</lied>
+    <lied>02-Song</lied>
+    <lied>03-Song</lied>
+    <lied>04-Song</lied>
+    <lied>05-Song</lied>
+    <lied>06-Song</lied>
+    <lied>07-Song</lied>
+    <lied>08-Song</lied>
+    <lied>09-Song</lied>
+    <lied>10-Song</lied>
+
+</album>
+<album typ="Vinyl" Zeit="55:55" >
+
+    <label>Mute Records Limited</label>
+    <interpret>03-Shaggy</interpret>
+    <titel>01-Album-Titel</titel>
+    <lied>01-Song</lied>
+    <lied>02-Song</lied>
+    <lied>03-Song</lied>
+    <lied>04-Song</lied>
+    <lied>05-Song</lied>
+    <lied>06-Song</lied>
+    <lied>07-Song</lied>
+    <lied>08-Song</lied>
+    <lied>09-Song</lied>
+    <lied>10-Song</lied>
+
+</album>
+
+
+</musiksammlung>
