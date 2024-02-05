@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- standalone ist optional, Standard-Wert ist "no" -->
+
+<!-- Root-Element            -->
+<!DOCTYPE token [
+
+<!-- Element der 2. Ebene    -->
+<!ELEMENT token (person*)>
+
+<!-- Elemente der 3. Ebene   -->
+<!ELEMENT person    (#PCDATA)>
+
+<!-- Attribute -->
+<!ATTLIST person kennung ID     #REQUIRED
+                verwandt IDREFS  #IMPLIED    >
+]>
+
+<!-- wenn bernd brause in Familie Rau einheiratet -->
+<token>
+    <person kennung="p1" verwandt="p2 p3 p4">Bernd Brause       </person>
+    <person kennung="p2" verwandt="p3 p4 p1">Brigitte Rau       </person>
+    <person kennung="p3" verwandt="p2 p4 p1">Ungern Rau         </person>
+    <person kennung="p4" verwandt="p2 p3 p1">Genauso Rau        </person>
+
+    <person kennung="p5" verwandt="p6">Umsonst Rau              </person>
+    <person kennung="p6" verwandt="p5">Umsonst Rau              </person>
+</token>

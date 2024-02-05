@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- standalone ist optional, Standard-Wert ist "no" -->
+
+<!-- Root-Element            -->
+<!DOCTYPE token [
+
+<!-- Element der 2. Ebene    -->
+<!ELEMENT token (person*)>
+
+<!-- Elemente der 3. Ebene   -->
+<!ELEMENT person    (#PCDATA)>
+
+<!-- Attribute -->
+<!ATTLIST person kennung ID #REQUIRED> ]>
+
+<token>
+    <person kennung="p1">Bernd Brause    </person>
+    <person kennung="p2">Brigitte Rau    </person>
+    <person kennung="p3">Ungern Rau    </person>
+</token>
