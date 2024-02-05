@@ -27,15 +27,12 @@
         DTD entwickeln Darstellung von XML mit XSL
     </Themen>
 
-    <personal>
+    <personal anrede="" typ="Seminarleiter">
+        
+    </personal>
 
-        <seminarleiter>
+    <personal anrede="" typ="Teilnehmer">
 
-        </seminarleiter>
-
-        <Teilnehmer>
-            
-        </Teilnehmer>
 
     </personal>
 
