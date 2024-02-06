@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Processing Instruction -->
+
+<!DOCTYPE verwaltung SYSTEM "namensraum.dtd" [
+
+]>
+<verwaltung>
+    <daten>
+        <name>Müller</name>
+    </daten>
+    <daten>
+        <name anrede="">Meier</name>
+    </daten>
+</verwaltung>

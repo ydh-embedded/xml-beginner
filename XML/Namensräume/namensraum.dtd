@@ -1,0 +1,10 @@
+
+
+<!-- Root-Element            -->
+<!ELEMENT verwaltung (daten)+>
+
+<!-- Element der 2. Ebene    -->
+<!ELEMENT daten     (name)*>
+
+<!-- Elemente der 3. Ebene   -->
+<!ELEMENT name      (#PCDATA)>
