@@ -2,12 +2,15 @@
 
 <!DOCTYPE verwaltung SYSTEM "namensraum.dtd" [
 
+    <!-- Namensraum -->
+    <!ATTLIST daten xmlns="Namensraum-mit-Anrede" CDATA #FIXED>
+    <!ATTLIST daten anrede (Herr|Frau) #IMPLIED>
 ]>
-<verwaltung>
+<verwaltung xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <daten>
         <name>Müller</name>
     </daten>
-    <daten>
+    <daten xmlns="Namensraum-mit-Anrede" >
         <name anrede="">Meier</name>
     </daten>
 </verwaltung>

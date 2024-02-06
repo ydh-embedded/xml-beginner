@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Processing Instruction -->
+
+<!DOCTYPE verwaltung SYSTEM "namensraum.dtd" [
+
+    <!-- Namensraum -->
+    <!ATTLIST daten xmlns:extra CDATA #FIXED "Mit-Anrede">
+    <!ATTLIST name extra:anrede (Herr|Frau) #IMPLIED>
+]>
+
+
+
+<verwaltung>
+    <daten
+        xmlns:extra="Mit-Anrede">
+        <name extra:anrede="Herr">Müller</name>
+    </daten>
+
+    <daten>
+        <name>Meier</name>
+    </daten>
+</verwaltung>
