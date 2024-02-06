@@ -1,0 +1,19 @@
+
+<!-- Root-Element            -->
+<!ELEMENT musiksammlung (album+)>
+
+<!-- Element der 2. Ebene    -->
+<!ELEMENT album (autor?, bild, title, (interpret|gruppe)+, gesamtspielzeit, label, lied* )>
+
+<!-- Elemente der 3. Ebene   -->
+<!ATTLIST album typ ( CD | MP3 | Vinyl | MC ) "MP3">
+
+<!ELEMENT autor     (#PCDATA)>
+<!ELEMENT bild          EMPTY>
+<!ELEMENT label     (#PCDATA)>
+
+<!ELEMENT label     (#PCDATA)>
+<!ELEMENT interpret (#PCDATA)>
+<!ELEMENT gruppe    (#PCDATA)>
+<!ELEMENT titel     (#PCDATA)>
+<!ELEMENT lied      (#PCDATA)>
